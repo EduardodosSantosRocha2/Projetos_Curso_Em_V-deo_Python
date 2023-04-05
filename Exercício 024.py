@@ -1,0 +1,5 @@
+#n = str(input('Em que cidade você nasceu?')).strip()
+#print(n[:5].upper() == 'SANTO')
+c = str(input('Em que cidade você nasceu?')).strip()
+d = c.split()
+print(d[0].upper() == 'SANTOS')
